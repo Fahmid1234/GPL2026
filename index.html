@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mini BPL Tournament</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🏏 Mini BPL Tournament</h1>
+  <nav>
+    <a href="index.html">Dashboard</a>
+    <a href="stats.html">Stats</a>
+  </nav>
+</header>
+
+<section>
+  <h2>📅 Fixtures & Results</h2>
+  <div class="table-wrap">
+    <table id="fixtureTable">
+      <thead>
+        <tr>
+          <th>#</th><th>T1</th><th>T2</th>
+          <th>R1</th><th>O1</th>
+          <th>R2</th><th>O2</th>
+          <th>Winner</th><th>Save</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>📊 Points Table</h2>
+  <table id="pointsTable">
+    <thead>
+      <tr>
+        <th>Rank</th><th>Team</th><th>M</th>
+        <th>W</th><th>L</th><th>Pts</th><th>NRR</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<section>
+  <h2>🏆 Playoffs</h2>
+  <div id="playoffs"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
